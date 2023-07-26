@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" href="../../../favicon.ico" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="styles.css" />
+        <title>Family Library</title>
+    </head>
+    <body>
+    <div class="header">BIM
+        LIBRARY</div>
+
+        <div id="button-container"></div>
+
+        <div id="search-container" class="hidden">
+            <label for="category-select">Select Category:</label>
+            <select id="category-select"></select>
+
+            <label for="version-select">Select Version:</label>
+            <select id="version-select"></select>
+        </div>
+
+        <div class="white-background">
+
+            <div class="cardBox" id="card-container">
+                <a href="..." class="card" style="display: none">
+                    <div class="card-image">
+                        <img class="image" src="JSONImageLink" alt />
+                    </div>
+                    <div class="discription-box">
+                        <div class="container">
+                            <div class="category">Category from JSON</div>
+                            <div class="version">
+                            </div>
+                            Revit <span class="name">version from JSON</span>
+                        </div>
+                        <div class="heading">Name from JSON</div>
+
+                    </div>
+                </a>
+            </div>
+        </div>
+        <script src="bundle.js"></script>
+    </body>
+</html>
