@@ -155,9 +155,9 @@ fetch("FamilesInfo.json")
     pageLink.href = elementPageUrl;
     
     //place to create web-viewer
-    const viewer = createViewer();
+    //const viewer = createViewer();
 
-    loadIfc(viewer, './02.ifc'); 
+    //loadIfc(viewer, './02.ifc'); 
     // Append the link to the container
     return pageLink;
   }

@@ -100867,31 +100867,9 @@ fetch("FamilesInfo.json")
     pageLink.href = elementPageUrl;
     
     //place to create web-viewer
-    const viewer = createViewer();
+    //const viewer = createViewer();
 
-    loadIfc(viewer, './02.ifc'); 
+    //loadIfc(viewer, './02.ifc'); 
     // Append the link to the container
     return pageLink;
-  }
-  let model;
-  
-  async function loadIfc(viewer, url) {
-    // Load the model
-    model = await viewer.IFC.loadIfcUrl(url);
-  
-    // Add dropped shadow and post-processing effect
-    await viewer.shadowDropper.renderShadow(model.modelID);
-  
-    viewer.dimensions.active = true;
-    viewer.dimensions.previewActive = true;
-  
-    window.ondblclick = () => {
-      viewer.dimensions.create();
-    };
-  
-    window.onkeydown = (event) => {
-      if (event.code == 'Delete') {
-        viewer.dimensions.delete();
-      }
-    };
   }
