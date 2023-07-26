@@ -100738,7 +100738,8 @@ fetch("FamilesInfo.json")
           const cardDiv = document.createElement("a");
           cardDiv.className = "card";
           cardDiv.setAttribute("data-category", family.Category);
-          cardDiv.href = createPage();
+          //cardDiv.href = createPage(family);
+          cardDiv.href = '../viewerPage/ifcviewer.html';
 
           const cardImageDiv = document.createElement("div");
           cardImageDiv.className = "card-image";
