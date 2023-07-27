@@ -27,7 +27,7 @@ fetch("FamilesInfo.json")
           cardDiv.className = "card";
           cardDiv.setAttribute("data-category", family.Category);
           //cardDiv.href = createPage(family);
-          cardDiv.href = './viewerPage/ifcviewer.html';
+          cardDiv.href = 'Page-3JS/viewerPage/ifcviewer.html';
 
           const cardImageDiv = document.createElement("div");
           cardImageDiv.className = "card-image";
