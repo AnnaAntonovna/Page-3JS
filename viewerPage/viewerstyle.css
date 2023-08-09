@@ -56,6 +56,7 @@ body{
     height: 45vh;
     background-color: white;
     float: left;
+    position: relative;
 }
 
 .table-lines{
@@ -91,9 +92,13 @@ td{
       justify-content: space-between;
     }
 }
+#viewer-container {
+  top: 0;
+  left: 0;
+  outline: none;
+}
 
-
-.button-container{
+.download-button-container{
     height: 30vh;
     text-decoration: none;
 }
@@ -171,3 +176,36 @@ td{
     display: none;
 
   }
+
+  .ifcjs-dimension-preview {
+    width: 1rem;
+    height: 1rem;
+    background-color: #FFF08E;
+    border-radius: 1rem;
+    opacity: 0.5;
+}
+
+.ifcjs-dimension-label {
+    background-color: black;
+    color: white;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+
+#button-container {
+  z-index: 2;
+  position:absolute;
+  margin-bottom: 5rem;
+  margin-left: 2%;
+  display: flex;
+  flex-direction: row;
+  background-color: transparent;
+}
+
+
+#button-container * {
+  margin: 0.5rem;
+  padding: 8px;
+  background-color: transparent
+}
