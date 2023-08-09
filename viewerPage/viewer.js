@@ -51,3 +51,9 @@ async function loadIfc(url) {
   }
 
 loadIfc('./Eames_PlasticArmchair_DAX.ifc'); 
+
+// Assuming you have selected the div element
+const targetDiv = document.querySelector('div:not([class]):not([id])');
+
+// Remove the background color
+targetDiv.style.backgroundColor = 'transparent';
