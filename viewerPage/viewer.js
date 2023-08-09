@@ -15,7 +15,6 @@ let model;
 async function loadIfc(url) {
 		// Load the model
     model = await viewer.IFC.loadIfcUrl(url);
-    
 
     // Setup camera controls
     const controls = viewer.context.ifcCamera.cameraControls;
