@@ -71,7 +71,7 @@ button.onclick = () => {
   };
 }
 
-loadIfc('./FU.CH_MeetingChair_Unix_Five-star.ifc'); 
+loadIfc('./CP-DR_2PI_Pivot Door.ifc'); 
 
 // Assuming you have selected the div element
 const targetDiv = document.querySelector('div:not([class]):not([id])');
