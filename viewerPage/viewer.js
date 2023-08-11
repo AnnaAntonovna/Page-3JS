@@ -21,7 +21,7 @@ async function loadIfc(url) {
     //controls.setPosition(1, 2, 1, false);
     //controls.setTarget(0, 0.4, 0, false);
 
-    controls.setPosition(100, 200, 100, false);
+    controls.setPosition(100, 200, 2000, false);
     controls.setTarget(0, 10, 0, false);
 
 		// Add dropped shadow and post-processing efect
