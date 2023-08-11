@@ -71,7 +71,7 @@ button.onclick = () => {
   };
 }
 
-loadIfc('./Knoll_Muuto_Relate_Table.ifc'); 
+loadIfc('./FU.CH_MeetingChair_Unix_Five-star.ifc'); 
 
 // Assuming you have selected the div element
 const targetDiv = document.querySelector('div:not([class]):not([id])');
