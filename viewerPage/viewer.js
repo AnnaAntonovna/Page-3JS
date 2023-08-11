@@ -71,7 +71,7 @@ button.onclick = () => {
   };
 }
 
-loadIfc('./Eames_PlasticArmchair_DAX.ifc'); 
+loadIfc('./Knoll_Muuto_Relate_Table.ifc'); 
 
 // Assuming you have selected the div element
 const targetDiv = document.querySelector('div:not([class]):not([id])');
