@@ -18,11 +18,11 @@ async function loadIfc(url) {
 
     // Setup camera controls
     const controls = viewer.context.ifcCamera.cameraControls;
-    //controls.setPosition(1, 2, 1, false);
-    //controls.setTarget(0, 0.4, 0, false);
+    controls.setPosition(1, 2, 1, false);
+    controls.setTarget(0, 0.4, 0, false);
 
-    controls.setPosition(100, 200, 2000, false);
-    controls.setTarget(0, 10, 0, false);
+    //controls.setPosition(100, 200, 2000, false);
+    //controls.setTarget(0, 10, 100, false);
 
 		// Add dropped shadow and post-processing efect
     await viewer.shadowDropper.renderShadow(model.modelID);
