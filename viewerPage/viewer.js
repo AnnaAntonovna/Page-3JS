@@ -73,7 +73,7 @@ button.onclick = () => {
   };
 }
 
-loadIfc('./CP-DR_2PI_Pivot Door.ifc'); 
+loadIfc('./Eames_PlasticArmchair_DAX.ifc'); 
 
 // Assuming you have selected the div element
 const targetDiv = document.querySelector('div:not([class]):not([id])');
