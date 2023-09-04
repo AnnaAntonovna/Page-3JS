@@ -79,7 +79,7 @@ async function loadIfc(url) {
   };
 }
 
-loadIfc("./Eames_PlasticArmchair_DAX.ifc");
+loadIfc("./AluminiumChair_EA105.ifc");
 
 // Assuming you have selected the div element
 const targetDiv = document.querySelector("div:not([class]):not([id])");
