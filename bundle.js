@@ -100846,14 +100846,11 @@ fetch("FamilesInfo.json")
     pageDoc.body.append(viewerContainer);
 
     //const viewer = new IfcViewerAPI({ viewerContainer, backgroundColor: new Color(0xffafff) });
-    
 
     //viewer.grid.setGrid();
     //viewer.axes.setAxes();
 
     //pageDoc.body.appendChild(viewer);
-
-  
 
     // Set the content of the document using the element.html template
     //pageDoc.documentElement.innerHTML = document.getElementById("card-container").innerHTML;
